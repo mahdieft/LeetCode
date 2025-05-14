@@ -3,8 +3,8 @@
 class TreeNode
 {
     public int $val;
-    public TreeNode $left;
-    public TreeNode $right;
+    public TreeNode|null $left;
+    public TreeNode|null $right;
 
     function __construct($val = 0, $left = null, $right = null)
     {
