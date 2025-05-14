@@ -1,9 +1,13 @@
 # Root Equals Sum of Children
-You are given the `root` of a **binary tree** that consists of exactly `3` nodes: the root, its left child, and its right child.  
+
+You are given the `root` of a **binary tree** that consists of exactly `3` nodes: the root, its left child, and its
+right child.  
 Return `true` if the value of the root is equal to the **sum** of the values of its two children, or `false` otherwise.
 
-### Example 1:  
-![](./images/example_1.png "Binary Tree")  
+### Example 1:
+
+![](./images/example_1.png "Binary Tree")
+
 ```
 Input: root = [10,4,6]
 Output: true
@@ -11,8 +15,9 @@ Explanation: The values of the root, its left child, and its right child are 10,
 10 is equal to 4 + 6, so we return true.
 ```
 
-### Example 2:  
-![](./images/example_2.png "Binary Tree")  
+### Example 2:
+
+![](./images/example_2.png "Binary Tree")
 
 ```
 Input: root = [5,3,1]
@@ -22,5 +27,6 @@ Explanation: The values of the root, its left child, and its right child are 5, 
 ```
 
 ### Constraints:
+
 * The tree consists only of the root, its left child, and its right child.
 * `-100 <= Node.val <= 100`
