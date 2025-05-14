@@ -2,7 +2,7 @@
 
 function maximumWealth(array $accounts): int
 {
-    $max_wealth = PHP_INT_MIN;
+    $max_wealth = 0;
     foreach ($accounts as $account) {
         $max_wealth = max(array_sum($account), $max_wealth);
     }
