@@ -17,6 +17,4 @@ Explanation: num1 + num2 = -6, so -6 is returned.
 ```
 
 ### Constraints:
-```
--100 <= num1, num2 <= 100
-```
+* `-100 <= num1, num2 <= 100`
